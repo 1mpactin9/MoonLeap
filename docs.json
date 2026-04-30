@@ -12,166 +12,20 @@
     "dark": "/favicon.svg"
   },
   "navigation": {
-    "tabs": [
+    "products": [
       {
-        "tab": "Moon Leap",
-        "icon": "moon",
-        "groups": [
-          {
-            "group": "Architecture",
-            "icon": "layer-group",
-            "pages": [
-              "system",
-              "system",
-              "system",
-              "system",
-              "data-flow",
-              "data-flow",
-              "data-flow",
-              "data-flow",
-              "tech-stack",
-              "tech-stack",
-              "tech-stack",
-              "tech-stack"
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "map-location-dot",
-            "pages": [
-              "authentication",
-              "authentication",
-              "authentication",
-              "authentication",
-              "integration",
-              "integration",
-              "integration",
-              "integration",
-              "deployment",
-              "deployment",
-              "deployment",
-              "deployment"
-            ]
-          },
-          {
-            "group": "Projects",
-            "icon": "briefcase",
-            "pages": [
-              "encryption",
-              "encryption",
-              "encryption",
-              "encryption",
-              "auto-typer",
-              "auto-typer",
-              "auto-typer",
-              "auto-typer"
-            ]
-          }
-        ]
+        "product": "Encryption",
+        "icon": "key-skeleton",
+        "href": "https://github.com/1mpactin9/Encryption"
       },
       {
-        "tab": "Science Fair",
-        "icon": "microscope",
-        "pages": [
-          {
-            "group": "Foundation",
-            "icon": "building-columns",
-            "pages": [
-              "overview",
-              "overview",
-              "overview",
-              "overview",
-              "background",
-              "background",
-              "background",
-              "background",
-              "hypothesis",
-              "hypothesis",
-              "hypothesis",
-              "hypothesis"
-            ]
-          },
-          {
-            "group": "Methodology",
-            "icon": "list-check",
-            "pages": [
-              "design",
-              "design",
-              "design",
-              "design",
-              "materials",
-              "materials",
-              "materials",
-              "materials",
-              "procedure",
-              "procedure",
-              "procedure",
-              "procedure"
-            ]
-          },
-          {
-            "group": "Experimentation",
-            "icon": "vial",
-            "pages": [
-              "tool-setup",
-              "tool-setup",
-              "tool-setup",
-              "tool-setup",
-              "photo-galley",
-              "photo-galley",
-              "photo-galley",
-              "photo-galley"
-            ]
-          },
-          {
-            "group": "Data Analysis",
-            "icon": "chart-simple",
-            "pages": [
-              "raw-data",
-              "raw-data",
-              "raw-data",
-              "raw-data",
-              "statistics",
-              "statistics",
-              "statistics",
-              "statistics",
-              "calculations",
-              "calculations",
-              "calculations",
-              "calculations",
-              "visualization",
-              "visualization",
-              "visualization",
-              "visualization"
-            ]
-          },
-          {
-            "group": "Conclusions",
-            "icon": "graduation-cap",
-            "pages": [
-              "results",
-              "results",
-              "results",
-              "results",
-              "discussion",
-              "discussion",
-              "discussion",
-              "discussion",
-              "application",
-              "application",
-              "application",
-              "application",
-              "bibliography",
-              "bibliography",
-              "bibliography",
-              "bibliography"
-            ]
-          },
-          "paper",
-          "paper",
-          "paper",
-          "paper"
-        ]
+        "product": "AutoTyper",
+        "icon": "bolt-auto",
+        "href": "https://github.com/1mpactin9/AutoTyper"
+      },
+      {
+        "product": "ScienceFair",
+        "icon": "microscope"
       }
     ]
   },
@@ -203,5 +57,12 @@
     "socials": {
       "github": "https://github.com/1mpactin9"
     }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "latex": true
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
